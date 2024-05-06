@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/theobroma/clientlibs"/>
+    <filter root="/apps/theobroma/components"/>
+    <filter root="/apps/theobroma/i18n"/>
+</workspaceFilter>

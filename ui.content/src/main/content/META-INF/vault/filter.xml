@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/theobroma" mode="merge"/>
+    <filter root="/content/theobroma" mode="merge"/>
+    <filter root="/content/dam/theobroma" mode="merge">
+        <exclude pattern="/content/dam/theobroma(/.*)?"/>
+        <include pattern="/content/dam/theobroma/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/theobroma/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/theobroma" mode="merge"/>
+</workspaceFilter>

@@ -1,0 +1,7 @@
+{
+    "scripts": [
+        "create path (sling:OrderedFolder) /content/dam/theobroma",
+        "create path (nt:unstructured) /content/dam/theobroma/jcr:content",
+        "set properties on /content/dam/theobroma/jcr:content\n  set cq:conf{String} to /conf/theobroma\n  set jcr:title{String} to \"Theobroma\"\nend"
+    ]
+}
